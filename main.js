@@ -93,7 +93,7 @@ function addFovorit(id) {
     favorites.push(id);
     localStorage.setItem("pokemon", JSON.stringify(favorites));
   } else {
-    alert("Фильм уже в избранных");
+    alert("Pokemon уже в избранных");
   }
   console.log(favorites);
 }
